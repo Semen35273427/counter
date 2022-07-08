@@ -12,3 +12,8 @@ function dec() {
     count--;
     document.getElementById("counter").innerHTML = count;
 };
+
+function zero() {
+    count = 0;
+    document.getElementById("counter").innerHTML = count;
+}
